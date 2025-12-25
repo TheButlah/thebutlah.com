@@ -1,0 +1,37 @@
+title = "thebutlah.com"
+description = "TheButlah's personal site"
+author = "thebutlah"
+
+base_url = "https://thebutlah.com" # The URL the site will be built for
+compile_sass = true # Whether to automatically compile all Sass files in the sass directory
+build_search_index = true # Whether to build a search index to be used later on by a JavaScript library
+theme = "terminus"
+
+taxonomies = [
+    { name = "tags", feed = true },
+    { name = "categories", feed = true, paginate_by = 5 },
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+favicon_emoji = "🦀"
+copyright = "© Bingus Incorporated 2069"
+
+main_menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    # { name = "projects", url = "projects", trailing_slash = true },
+    { name = "github", url = "https://github.com/TheButlah", new_tab = true },
+    { name = "résumé", url = "https://drive.google.com/uc?id=1n_KxX7mQydXTr-388og1Gd8u2BszvxOY", new_tab = true },
+]
+
+socials = [
+    { name = "github", url = "https://github.com/TheButlah" },
+    { name = "bluesky", url = "https://bsky.app/profile/thebutlah.com" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/ryan-butler" },
+    { name = "email", url = "mailto:thebutlah+site@gmail.com" },
+]
+
