@@ -25,7 +25,7 @@ main_menu = [
     { name = "blog", url = "blog", trailing_slash = true },
     # { name = "projects", url = "projects", trailing_slash = true },
     { name = "github", url = "https://github.com/TheButlah", new_tab = true },
-    { name = "résumé", url = "https://drive.google.com/uc?id=1n_KxX7mQydXTr-388og1Gd8u2BszvxOY", new_tab = true },
+    { name = "résumé", url = "/resume", new_tab = true },
 ]
 
 socials = [
